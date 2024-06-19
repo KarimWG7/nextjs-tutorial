@@ -1,3 +1,6 @@
+// this file take the data from the placeholder file and put it in the postgres db
+// So it's a one time used file
+
 const { db } = require('@vercel/postgres');
 const {
   invoices,
